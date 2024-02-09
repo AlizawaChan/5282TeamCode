@@ -1,0 +1,76 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.0138248847926272,
+        "y": 6.919264124242535
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.0138248847926272,
+        "y": 6.919264124242535
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.5677274211691286,
+        "y": 6.640734424325992
+      },
+      "prevControl": {
+        "x": 2.5677274211691286,
+        "y": 8.16142505690054
+      },
+      "nextControl": {
+        "x": 2.5677274211691286,
+        "y": 6.626074966435647
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.344678689357379,
+        "y": 5.204107551072246
+      },
+      "prevControl": {
+        "x": 4.202651583874596,
+        "y": 4.146258935375018
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Drop Note Into Amp",
+      "waypointRelativePos": 0.5,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": []
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": null,
+  "previewStartingState": null,
+  "useDefaultConstraints": false
+}
